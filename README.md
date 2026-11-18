@@ -39,6 +39,9 @@ Check the [issues](../../issues) tab before filing a new one.
 
 Use the bug report template. The things that actually help: which headset, which chapter, and what you were doing right before it broke. A short video from the headset beats a long description.
 
+## AI Usage
+Minor AI was used in this project. What it was used for was for fixing any bugs left with the VR port that I couldn't do. This is also due to there already being a Bendy VR mod and that I already had the Unity project, so all I had to do was port it to Unity.
+
 ## Credits
 
 Original game by Joey Drew Studios / Meatly. VR port built on the two forks VR work and a lot of testing. This is a fan project and isn't affiliated with the original developers.
