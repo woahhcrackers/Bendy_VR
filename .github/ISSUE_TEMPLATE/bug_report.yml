@@ -1,0 +1,47 @@
+name: Bug report
+description: Something broke or looks wrong
+labels: [bug]
+body:
+  - type: dropdown
+    id: headset
+    attributes:
+      label: Headset
+      options: [Quest 3, Quest 3S, Quest 2, Quest Pro, Other]
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Build version
+      description: Shown on the title screen or in the release name
+    validations:
+      required: true
+  - type: dropdown
+    id: chapter
+    attributes:
+      label: Chapter
+      options: [Main menu, Chapter 1, Chapter 2, Chapter 3, Chapter 4, Chapter 5, Archives]
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: And what you expected to happen
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to make it happen again
+      placeholder: "1. Load chapter 2\n2. Walk to the ink machine\n3. ..."
+  - type: dropdown
+    id: quality
+    attributes:
+      label: Quality setting
+      options: [Very low, Low, Medium, High, Not sure]
+  - type: textarea
+    id: extra
+    attributes:
+      label: Video, screenshots, logs
+      description: Drag files in here. A short headset recording helps the most.

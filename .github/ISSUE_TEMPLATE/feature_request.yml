@@ -1,0 +1,15 @@
+name: Suggestion
+description: Comfort option, control tweak, anything you'd like added
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: What problem it fixes for you
