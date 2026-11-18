@@ -13,7 +13,7 @@ A VR conversion of the original game. You move around the studio in room scale o
 1. Grab the latest `.apk` from [Releases](../../releases).
 2. Enable developer mode on the headset, plug it in, then:
    ```
-   adb install -r Bendy_VR.apk
+   adb install -r bendyvr.apk
    ```
 3. It shows up under Unknown Sources in the library.
 
